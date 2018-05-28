@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zhou</groupId>
+    <artifactId>blog</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+       <!-- 内容管理系统-->
+        <module>blog-cms</module>
+       <!-- 权限管理系统（用户url访问权限、sso单点登录-->
+        <module>blog-upms</module>
+       <!-- 配置中心（分布式配置文件和zuui网关配置）-->
+        <module>blog-config</module>
+       <!-- 系统公共模块-->
+        <module>blog-common</module>
+       <!-- 服务治理和注册中心-->
+        <module>blog-eureka</module>
+        <!-- 管理后台-->
+        <module>blog-manage</module>
+        <!-- pc前端-->
+        <module>blog-web</module>
+        <!-- 用户系统-->
+        <module>blog-user</module>
+    </modules>
+
+
+</project>
