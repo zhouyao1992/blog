@@ -19,9 +19,9 @@
         <module>blog-common</module>
        <!-- 服务治理和注册中心-->
         <module>blog-eureka</module>
-        <!-- 管理后台-->
+        <!-- 博客管理后台-->
         <module>blog-manage</module>
-        <!-- pc前端-->
+        <!-- 博客pc前端-->
         <module>blog-web</module>
         <!-- 用户系统-->
         <module>blog-user</module>
