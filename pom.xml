@@ -9,15 +9,15 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-       <!-- 博客内容系统-->
+        <!-- 博客内容系统-->
         <module>blog-cms</module>
-       <!-- 权限管理系统（用户url访问权限、sso单点登录-->
+        <!-- 权限管理系统（用户url访问权限、sso单点登录-->
         <module>blog-upms</module>
-       <!-- 配置中心（分布式配置文件和zuui网关配置）-->
+        <!-- 配置中心（分布式配置文件和zuui网关配置）-->
         <module>blog-config</module>
-       <!-- 系统公共模块-->
+        <!-- 系统公共模块-->
         <module>blog-common</module>
-       <!-- 服务治理和注册中心-->
+        <!-- 服务治理和注册中心-->
         <module>blog-eureka</module>
         <!-- 博客管理后台-->
         <module>blog-manage</module>
